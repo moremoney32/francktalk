@@ -1,0 +1,65 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+}
+.header h1{
+    font-size: 35px;
+    font-weight: 700;
+    color: white;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.space{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 250px;
+}
+.space input{
+    padding: 10px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    background: darkgray;
+    padding-left: 15px;
+    color: white;
+    
+}
+.space label{
+    padding: 10px;
+    color: white;
+   font-weight: 600;
+    
+}
+#form :nth-child(3){
+    width: 100px;
+}
+#parent-button{
+    width: 150px;
+    position: relative;
+}
+#parent-button button{
+    position: absolute;
+    width: 100%;
+    left: 15px;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background:red;
+    color: white;
+    cursor: pointer;
+    font-size:18px;
+}
+#parent-button button:hover{
+    background: darkgray;
+    color: red;
+    transition: .5s ease-in-out;
+}
